@@ -44,7 +44,7 @@
   <h2>Sign Up Input Validation:</h2>
  Using Regex to validate inputs
 <ol>
-  <li>Must fills all inputs</li>
+  <li>Must fill all inputs</li>
   <li>Email and username must not be present</li>
   <li>The password must begin with Capital letter and not be less than five characters </li>
 </ol>
