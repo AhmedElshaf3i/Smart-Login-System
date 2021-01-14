@@ -25,14 +25,12 @@
           <li>E-mail Address</li>
           <li>Password</li>
         </ul>
-    <img src="![Sign Up](https://user-images.githubusercontent.com/74079025/104539652-a44a2280-5626-11eb-851d-e74475e0d265.PNG)">
     <h3>Sign In Page:<h3>
       <p>Requers to enter tow inputs </p>
         <ul>
           <li>E-mail Address</li>
           <li>Password</li>
         </ul>
-  <img src="![Sign In](https://user-images.githubusercontent.com/74079025/104539694-b6c45c00-5626-11eb-8a74-3d1fcf0a46fa.PNG)">
     <h3>Welcome Page:<h3>
       <p>It will appear after successful login </p>
 </div>
@@ -45,13 +43,13 @@
 
 <div>
   <h2>Sign Up Input Validation:</h2>
- *Using Regex to validate inputs*
+ Using Regex to validate inputs
 <ol>
   <li>Must fills all inputs</li>
   <li>Email and username must not be present</li>
   <li>The password must begin with Capital letter and not be less than five characters </li>
 </ol>
- *An alert will appear and will not be saved in the local storage if the inputs do not match the instructions *
+ An alert will appear and will not be saved in the local storage if the inputs do not match the instructions 
 
 </div>
 
