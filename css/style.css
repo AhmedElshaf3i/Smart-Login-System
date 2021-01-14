@@ -1,0 +1,29 @@
+body
+{
+    background-color: #24353f;
+}
+.loginSection h1
+{
+    color: #17a2b8
+}
+.loginSection
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control
+{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.group
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#logoutBtn:hover
+{
+    color: white;
+}
+#logoutBtn
+{
+    color: rgba(255,255,255,.5);
+}

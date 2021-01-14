@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+ 
+<body> 
+
+    <div id="fristPage" class="loginSection container-fluid text-center w-75 p-5  mt-5 ">
+        <h1>Smart Login System</h1>
+        <!-- log in section -->
+        <div class="d-none" id="signInSection">
+            <!-- inputes -->
+            <input id="emailInput" type="email" placeholder="Enter your email"
+                class=" form-control  bg-transparent text-white form-group ">
+            <input id="passInput" type="password" placeholder="Enter your password"
+                class="form-control  bg-transparent text-white form-group">
+
+
+            <div class="text-danger " id="warningLogin">
+           <!-- js code -->
+            </div>
+
+            <button id="signInpBtn" class="btn btn-outline-info w-100 my-4">login</button>
+
+            <div class="text-white">
+                <span>Don’t have an account?</span>
+                <a href="#" id="SignUpLink" class="text-white">Sign Up</a>
+            </div>
+
+        </div>
+
+
+
+                
+        <!-- sign up section -->
+        <div class="" id="signUpSection">
+            <input id="userName" type="text" placeholder="Enter your name"
+                class=" form-control  bg-transparent text-white form-group ">
+
+            <input id="userEmail" type="email" placeholder="Enter your email"
+                class="form-control  bg-transparent text-white form-group">
+
+            <input id="userPass" type="password" placeholder="Enter your password"
+                class="form-control  bg-transparent text-white form-group">
+
+            <div class="text-danger " id="warning">
+
+            </div>
+
+            <button id="signUpBtn" class="btn btn-outline-info w-100 my-4">Sign Up</button>
+
+            <div class="text-white">
+                <span>You have an account?</span>
+                <a href="#" id="SigninLink" class="text-white">Signin</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- welcome section -->
+    <section class="d-none" id="welcomeSection">
+        <!-- navication bar 
+         -->
+        <nav class="navbar w-100 group position-fixed">
+            <div class="container">
+                <a class="text-white  text-decoration-none" href="#">SMART LOGIN </a>
+                <button id="logoutBtn" class="btn btn-outline-warning ">logout</button>
+            </div>
+        </nav>
+
+        <!-- welcome part -->
+        <div class="d-flex h-100 justify-content-center container  align-items-center">
+
+            <div id="welcome" class="loginSection container-fluid text-center h-25 w-75 p-5  mt-5 ">
+                <!-- js code will effect here -->
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
