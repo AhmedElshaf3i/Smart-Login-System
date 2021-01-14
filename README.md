@@ -25,7 +25,7 @@
           <li>Password</li>
         </ul>
     <h3>Sign In Page:<h3>
-      <p>Requers to enter tow inputs </p>
+      <p>Requers to enter two inputs </p>
         <ul>
           <li>E-mail Address</li>
           <li>Password</li>
