@@ -18,7 +18,7 @@
 <div>
  <h2>pages:</h2>
     <h3>Sign Up Page:<h3>
-      <p>Requers to enter three inputs </p>
+      <p>Requires to enter three inputs </p>
         <ul>
           <li>User Name</li>
           <li>E-mail Address</li>
